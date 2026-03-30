@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(curl -s http://localhost:5263/api/employee)",
+      "Bash(start:*)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(curl -s -X POST http://localhost:5263/api/fine -H \"Content-Type: application/json\" -d '{\"\"employeeId\"\":1,\"\"reason\"\":\"\"Test\"\",\"\"amount\"\":50000}')",
+      "Bash(netstat -ano)",
+      "Bash(taskkill:*)"
+    ]
+  }
+}
